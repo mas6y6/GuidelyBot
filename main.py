@@ -15,7 +15,7 @@ bot = discord.ext.commands.Bot(command_prefix="?",intents=intents)
 
 @bot.event
 async def on_ready():
-    game = discord.CustomActivity("Helping people in ICSCS")
+    game = discord.CustomActivity("Helping people in ICSCS :D")
     cmds = await bot.tree.sync()
     await bot.change_presence(activity=game)
     print(len(cmds),"Commands synced !")
