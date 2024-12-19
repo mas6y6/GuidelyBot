@@ -1,3 +1,6 @@
 token
 __pycache__
 guides/__pycache__
+guides/gameplayguides/__pycache__
+guides/interductionguides/__pycache__
+guides/otherguides/__pycache__
